@@ -1,0 +1,226 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+			  "navigationBarTitleText": "我的",
+			  "navigationBarBackgroundColor":"#e95504"
+			}
+		},
+		// {
+		// 	"path": "pages/index/text",
+		// 	"style": {
+		// 	  "navigationBarTitleText": "我的",
+		// 	  "navigationBarBackgroundColor":"#e95504"
+		// 	}
+		// },
+		
+		
+		
+		
+		{
+			"path": "pages/classify/classify",
+			"style": {
+				"navigationBarTitleText": "分类",
+				 "navigationBarBackgroundColor":"#e95504"
+			}
+		},
+		{
+			"path": "pages/classify/text",
+			"style": {
+				"navigationBarTitleText": "分类",
+				 "navigationBarBackgroundColor":"#e95504"
+			}
+		},
+		{
+			"path": "pages/classify/text2",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/classify/text3",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/classify/text4",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		
+		{
+			"path": "pages/market/market",
+			"style": {
+				"navigationBarTitleText": "全民营销"
+			}
+		},
+		
+		
+		
+		
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				 "navigationBarBackgroundColor":"#e95504"
+			}
+		},
+		{
+			"path": "pages/cart/test",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				 "navigationBarBackgroundColor":"#e95504"
+			}
+		},
+		{
+			"path": "pages/cart/test2",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				 "navigationBarBackgroundColor":"#e95504"
+			}
+		},
+		{
+			"path": "pages/cart/test3",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				 "navigationBarBackgroundColor":"#e95504"
+			}
+		},
+		{
+			"path": "pages/cart/test4",
+			"style": {
+				"navigationBarTitleText": "甘特图",
+				 "navigationBarBackgroundColor":"#e95504",
+				 "pageOrientation": "landscape",
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				 "navigationBarBackgroundColor":"#e95504"
+			}
+		},
+		{
+			"path": "pages/user/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				 "navigationBarBackgroundColor":"#e95504",
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/personCenter/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				 "navigationBarBackgroundColor":"#e95504"
+			}
+		},
+		{
+			"path": "pages/user/personCenter/chagenPerson",
+			"style": {
+				"navigationBarTitleText": "个人信息修改",
+				 "navigationBarBackgroundColor":"#e95504"
+			}
+		},
+		{
+			"path": "pages/user/personCenter/chagenPassword",
+			"style": {
+				"navigationBarTitleText": "密码修改",
+				 "navigationBarBackgroundColor":"#e95504"
+			}
+		},
+		
+		
+		
+		
+		{
+			"path": "pages/test/test",
+			"style": {
+				"navigationBarTitleText": "test",
+				"pageOrientation": "landscape",
+				"navigationStyle": "custom"
+				// "pageOrientation": "auto"
+			}
+		},
+		{//实力品牌
+			"path": "pages/webviews/appointment/introduction"
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+			  "navigationBarTitleText": "详情"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		
+	},
+	
+	
+	"condition" : { //模式配置，仅开发期间生效
+			"current": 0, //当前激活的模式(list 的索引项)
+			"list": [
+				{
+					"name": "test", //模式名称
+					"path": "pages/user/personCenter/index"//启动页面，必选
+					// "query": "newsid=5173214" //启动参数，在页面的onLoad函数里面得到
+				}
+			]
+		},
+	
+	
+	"tabBar": {
+	  "color": "#C0C4CC",
+	  "selectedColor": "#f7962f",
+	  "borderStyle": "black",
+	  "backgroundColor": "#ffffff",
+	  "list": [
+	    {
+	      "pagePath": "pages/index/index",
+	      "iconPath": "static/tab-home.png",
+	      "selectedIconPath": "static/tab-home-current.png",
+	      "text": "首页"
+	    },
+	    {
+	      "pagePath": "pages/classify/classify",
+	      "iconPath": "static/tab-shop.png",
+	      "selectedIconPath": "static/tab-shop-current.png",
+	      "text": "分类"
+	    },
+		{
+		  "pagePath": "pages/market/market",
+		  "iconPath": "static/tab-cart.png",
+		  "selectedIconPath": "static/tab-cart-current.png",
+		  "text": "全民营销"
+		},
+	    {
+	      "pagePath": "pages/cart/cart",
+	      "iconPath": "static/tab-cart.png",
+	      "selectedIconPath": "static/tab-cart-current.png",
+	      "text": "购物车"
+	    },
+	    {
+	      "pagePath": "pages/user/user",
+	      "iconPath": "static/tab-my.png",
+	      "selectedIconPath": "static/tab-my-current.png",
+	      "text": "我的"
+	    }
+		// {
+		//   "pagePath": "pages/test/test",
+		//   "iconPath": "static/tab-my.png",
+		//   "selectedIconPath": "static/tab-my-current.png",
+		//   "text": "测试"
+		// }
+	  ]
+	}
+}

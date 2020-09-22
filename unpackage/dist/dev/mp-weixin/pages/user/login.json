@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "登录",
+  "navigationBarBackgroundColor": "#e95504",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

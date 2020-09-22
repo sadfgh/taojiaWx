@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的",
+  "navigationBarBackgroundColor": "#e95504",
+  "usingComponents": {
+    "picture-tailor": "/components/picture-tailor/pictureTailor"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="data-v-3c88964a"><view data-event-opts="{{[['tap',[['handleHiddenShare',['$event']]]]]}}" class="{{['data-v-3c88964a',(shareState)?'share-box':'']}}" bindtap="__e"></view><view class="{{['share-item data-v-3c88964a',(shareState)?'share-show':'']}}"><view class="bottom-box data-v-3c88964a"><slot></slot></view></view></view>

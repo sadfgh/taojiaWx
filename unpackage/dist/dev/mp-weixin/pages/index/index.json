@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的",
+  "navigationBarBackgroundColor": "#e95504",
+  "usingComponents": {
+    "activity": "/components/activity/activity",
+    "com-swiper": "/components/comSwiper/comSwiper"
+  }
+}

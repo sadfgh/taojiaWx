@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "test",
+  "pageOrientation": "landscape",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "nav-icon": "/components/navIcon/navIcon"
+  }
+}

@@ -1,0 +1,1 @@
+<block wx:if="{{tableData.length!=0}}"><view><mytable vue-id="1" tableHead="{{tableHead}}" centerList="{{centerList}}" tableHeadT="{{tableHeadT}}" tableData="{{tableData}}" bind:__l="__l"></mytable></view></block>

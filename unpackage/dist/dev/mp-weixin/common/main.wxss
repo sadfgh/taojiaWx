@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 1937277 */
+  src: url('//at.alicdn.com/t/font_1937277_zxx2wwxq1m.eot');
+  src: url('//at.alicdn.com/t/font_1937277_zxx2wwxq1m.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1937277_zxx2wwxq1m.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1937277_zxx2wwxq1m.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1937277_zxx2wwxq1m.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1937277_zxx2wwxq1m.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-yinxingqia:before {
+  content: "\E604";
+}
+.icon-wuliukuaidi:before {
+  content: "\E616";
+}
+.icon-xiaoxi:before {
+  content: "\E60D";
+}
+.icon-kefu-tianchong:before {
+  content: "\E620";
+}
+.icon-icon:before {
+  content: "\E611";
+}
+.icon-tuiguang:before {
+  content: "\E61B";
+}
+.icon-xiangmu:before {
+  content: "\E76E";
+}
+
+/*每个页面公共css */
+
+/*自定义样式*/
+
+
+
+/* 微信样式 */
+
+
+checkbox .wx-checkbox-input {
+  border-radius: 50% !important;
+  color: #ffffff !important;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  color: #fff;
+  /* background: #3d7eff; */
+  background: #F7962F;
+}
+.wx-checkbox-input.wx-checkbox-input-checked {
+  border: none !important;
+}
+
+
+
+
+
